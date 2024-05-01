@@ -1,0 +1,1 @@
+import{j as s}from"./app-Djs5CSDn.js";function a(e){return s.jsxs("div",{className:"logo font-black text-3xl",children:[s.jsx("span",{className:"text-red-500",children:"O"}),s.jsx("span",{className:"text-yellow-500",children:"S"}),s.jsx("span",{className:"text-green-500",children:"G"})]})}export{a as A};
