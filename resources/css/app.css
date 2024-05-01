@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body {
+    background: #2d2c2c;
+    color: white;
+} */
+
+.large-txt {
+    @apply text-8xl max-[1250px]:text-6xl max-[600px]:text-5xl
+}
+
+.medium-txt {
+    @apply text-7xl max-[1250px]:text-6xl max-[600px]:text-4xl
+}
+
+section, .spacing {
+    @apply px-12 max-[700px]:px-6
+}
+
+button {
+    @apply bg-black text-white px-6 py-3 rounded-md shadow font-bold transition-all duration-300 min-w-[150px];
+}
+
+button:active {
+    @apply bg-[#111111] scale-95;
+}
+
+button:hover {
+    @apply bg-blue-700 text-white;
+}
